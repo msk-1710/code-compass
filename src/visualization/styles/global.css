@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.4);
+  color: #ffffff;
+}
+
+button, input, select {
+  font-family: inherit;
+}
+
+/* Sigma.js Canvas Dark Theme Overrides */
+:root {
+  --sigma-background-color: transparent !important;
+  --sigma-controls-background-color: rgba(13, 17, 23, 0.85) !important;
+  --sigma-controls-background-color-hover: rgba(30, 41, 59, 0.9) !important;
+  --sigma-controls-border-color: rgba(255, 255, 255, 0.12) !important;
+  --sigma-controls-color: #f1f5f9 !important;
+}
+
+div.react-sigma {
+  background: transparent !important;
+}
+
+.react-sigma-controls {
+  background: rgba(13, 17, 23, 0.85) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+  overflow: hidden;
+}
+
+.react-sigma-control {
+  background-color: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.react-sigma-control:last-child {
+  border-bottom: none !important;
+}
+
+.react-sigma-control button {
+  background-color: transparent !important;
+  filter: invert(1) brightness(1.8) !important;
+  cursor: pointer;
+}
+
+.react-sigma-control button:hover {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}

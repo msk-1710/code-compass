@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+demo
+.vscode
+file_examples.md
+examples
+coverage
+project-visualization.html
+code-compass.html
+.DS_Store

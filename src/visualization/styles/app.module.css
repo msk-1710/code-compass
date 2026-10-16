@@ -1,0 +1,42 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: #0b0f17;
+  color: #f1f5f9;
+  position: relative;
+  overflow: hidden;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.placeholder h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #3498db;
+}
+
+.placeholder p {
+  font-size: 24px;
+  color: #2ecc71;
+  margin-bottom: 40px;
+}
+
+.stats {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+}
+
+.stats p {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 10px 0;
+}
